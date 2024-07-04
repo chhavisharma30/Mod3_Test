@@ -3,13 +3,19 @@ langcode: en
 status: true
 dependencies:
   config:
-    - taxonomy.vocabulary.categories
+    - node.type.items
   module:
+    - node
     - taxonomy
+    - toolbar
 id: content_admin_1
 label: 'Content Admin 1'
 weight: 4
 is_admin: null
 permissions:
-  - 'create terms in categories'
-  - 'edit terms in categories'
+  - 'access content overview'
+  - 'access toolbar'
+  - 'create items content'
+  - 'edit any items content'
+  - 'edit own items content'
+  - 'view vocabulary labels'
