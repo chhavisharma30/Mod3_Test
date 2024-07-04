@@ -1,0 +1,12 @@
+uuid: 40764910-abe3-4268-a8c3-b289ab5570a8
+langcode: en
+status: true
+dependencies: {  }
+id: become_a_seller
+label: 'Become A Seller'
+recipients:
+  - chhavisharma3007@gmail.com
+reply: ''
+weight: 0
+message: ''
+redirect: /

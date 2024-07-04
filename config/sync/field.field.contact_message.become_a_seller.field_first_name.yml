@@ -1,0 +1,19 @@
+uuid: 41461c12-374c-4857-8798-e1218035c832
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.become_a_seller
+    - field.storage.contact_message.field_first_name
+id: contact_message.become_a_seller.field_first_name
+field_name: field_first_name
+entity_type: contact_message
+bundle: become_a_seller
+label: 'First Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

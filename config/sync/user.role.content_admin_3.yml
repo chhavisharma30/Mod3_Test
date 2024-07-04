@@ -1,0 +1,21 @@
+uuid: 5cdaa10f-9746-4e39-a60d-e91da64349a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.items
+  module:
+    - node
+    - taxonomy
+    - toolbar
+id: content_admin_3
+label: 'Content Admin 3'
+weight: 6
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'create items content'
+  - 'edit any items content'
+  - 'edit own items content'
+  - 'view vocabulary labels'

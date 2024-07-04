@@ -1,0 +1,23 @@
+uuid: 3de402d5-261e-44c5-b0ed-32183dc2ddc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.become_a_seller
+    - field.storage.contact_message.field_phone_number
+id: contact_message.become_a_seller.field_phone_number
+field_name: field_phone_number
+entity_type: contact_message
+bundle: become_a_seller
+label: 'Phone Number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

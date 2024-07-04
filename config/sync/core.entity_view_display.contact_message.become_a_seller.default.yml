@@ -1,0 +1,49 @@
+uuid: 16ffa515-9776-4e72-9e0a-916f56a3654d
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.become_a_seller
+    - field.field.contact_message.become_a_seller.field_email_address
+    - field.field.contact_message.become_a_seller.field_first_name
+    - field.field.contact_message.become_a_seller.field_last_name
+    - field.field.contact_message.become_a_seller.field_phone_number
+id: contact_message.become_a_seller.default
+targetEntityType: contact_message
+bundle: become_a_seller
+mode: default
+content:
+  field_email_address:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_first_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_last_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_phone_number:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  message: true
