@@ -2,13 +2,13 @@ _core:
   default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
 langcode: en
 uuid: 3d70bdea-b75a-4644-8d6f-bfc6712be6be
-name: 'Mod 3 Test'
+name: 'Local Employee Management Portal'
 mail: chhavisharma3007@gmail.com
 slogan: ''
 page:
-  403: ''
-  404: ''
-  front: /node
+  403: /node/2
+  404: /node/1
+  front: /node/65
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

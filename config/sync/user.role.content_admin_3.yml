@@ -1,0 +1,15 @@
+uuid: 5cdaa10f-9746-4e39-a60d-e91da64349a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.categories
+  module:
+    - taxonomy
+id: content_admin_3
+label: 'Content Admin 3'
+weight: 6
+is_admin: null
+permissions:
+  - 'create terms in categories'
+  - 'edit terms in categories'

@@ -1,0 +1,27 @@
+_core:
+  default_config_hash: lqgpqHWPl_Pw9TRyZ9tqgNM1-ah9HMX3fwfU49_Ihck
+admin_content_notification_node_types:
+  items: items
+  article: null
+  banner: null
+  page: null
+admin_content_notification_trigger_on_node_update: null
+admin_content_notification_trigger_on_node_status: 0
+admin_content_notification_allowed_roles:
+  administrator: administrator
+  content_admin_1: content_admin_1
+  content_admin_2: content_admin_2
+  content_admin_3: content_admin_3
+  anonymous: null
+  authenticated: null
+admin_content_notification_email_limit: 50
+admin_content_notification_email: ''
+admin_content_notification_roles_notified:
+  administrator: administrator
+  authenticated: null
+  content_admin_1: null
+  content_admin_2: null
+  content_admin_3: null
+admin_content_notification_email_subject: 'New Content Created'
+admin_content_notification_email_body: "A new content has been @action on your site having\r\nTitle: @content_title\r\nCateogry: [node:field_category] \r\nSubmitted by : @user_who_posted."
+admin_content_notification_default_to: chhavisharma3007@gmail.com

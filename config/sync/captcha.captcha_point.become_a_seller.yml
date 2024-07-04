@@ -1,0 +1,7 @@
+uuid: 27aa6337-77f7-48b5-99f6-9c2ab9e5574b
+langcode: en
+status: true
+dependencies: {  }
+formId: become_a_seller
+captchaType: captcha/Math
+label: become_a_seller

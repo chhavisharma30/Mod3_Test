@@ -1,0 +1,53 @@
+uuid: 49ba6c8b-3835-4b43-96af-d335d80d99af
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.items.field_category
+    - field.field.node.items.field_image
+    - field.field.node.items.field_price
+    - field.field.node.items.field_small_description
+    - image.style.thumbnail
+    - node.type.items
+  module:
+    - image
+    - user
+id: node.items.teaser
+targetEntityType: node
+bundle: items
+mode: teaser
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_price:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_small_description:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_category: true
+  links: true

@@ -1,0 +1,43 @@
+uuid: 59556ff8-cc6b-4aa5-86c8-ec2f7886d58d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.banner.field_image
+    - field.field.node.banner.field_link
+    - image.style.wide
+    - node.type.banner
+  module:
+    - image
+    - link
+    - user
+id: node.banner.default
+targetEntityType: node
+bundle: banner
+mode: default
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: wide
+      image_loading:
+        attribute: eager
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  links: true
